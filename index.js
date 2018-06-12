@@ -24,8 +24,12 @@ function nowServing(katzDeliLine,newName) {
 function currentLine(katzDeliLine) {
   if(!katzDeliLine.length) {
     return `The line is currently empty`;
-  } else {
-    var lineSize = katzDeliLine.length;
-    return `${lineSize}. ` + katzDeliLine.shift() + `,`;
   }
+  
+  var nameSlot = [];
+  
+  for(i = 0; i <) {
+    
+  }
+  
 }
