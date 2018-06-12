@@ -28,7 +28,7 @@ function currentLine(katzDeliLine) {
   
   var nameSlot = [];
   
-  for(i = 0; i < katzDeliLine.length; i++) {
+  for( var i = 0; i < katzDeliLine.length; i++ ) {
     
     nameSlot = i + 1 + `. ` + katzDeliLine[i];
     
