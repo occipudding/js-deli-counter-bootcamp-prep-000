@@ -32,8 +32,6 @@ function currentLine(katzDeliLine) {
     
     nameSlot = i + 1 + `. ` + katzDeliLine[i];
     
-    return nameSlot;
-    
   }
   
 }
