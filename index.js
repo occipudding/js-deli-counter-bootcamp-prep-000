@@ -30,7 +30,7 @@ function currentLine(katzDeliLine) {
   
   for( var i = 0; i < katzDeliLine.length; i++ ) {
     
-    nameSlot = i + 1 + `. ` + katzDeliLine[i];
+    nameSlot.push(i + 1 + `. ` + katzDeliLine[i]);
     
   }
   
