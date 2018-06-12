@@ -20,3 +20,11 @@ function nowServing(katzDeliLine,newName) {
   return katzDeliLine;
   
 }
+
+function currentLine() {
+  if(!katzDeliLine.length) {
+    return `The line is currently empty`;
+  } else {
+    var line = katzDeliLine
+  }
+}
