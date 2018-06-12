@@ -17,4 +17,6 @@ function nowServing(katzDeliLine,newName) {
     return katzDeliLine.shift();
   }
   
+  return katzDeliLine;
+  
 }
